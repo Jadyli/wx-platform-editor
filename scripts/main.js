@@ -229,7 +229,7 @@ if (themeDOM) {
     currentThemeIndex += 1;
     let type = themes[currentThemeIndex % themesLen];
     type = type === 'default' ? '' : type;
-    let url = type ? `/styles/prism-${type}.css` : '/styles/prism.css';
+    let url = type ? `/styles/prism-${type}.css` : '/styles/prism-tomorrow.css';
     getDOM('#prismTheme').setAttribute('href', url);
   });
 }
